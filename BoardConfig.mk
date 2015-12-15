@@ -28,7 +28,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 BOARD_DTBTOOL_ARGS := --force-v3
 BOARD_KERNEL_CMDLINE += ramoops.mem_address=0x9ff00000 ramoops.mem_size=0x400000
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
-TARGET_KERNEL_CONFIG := cyanogenmod_r7plus_defconfig
+TARGET_KERNEL_CONFIG := custom_r7plus_defconfig
 
 # Partition info
 BOARD_FLASH_BLOCK_SIZE := 131072
